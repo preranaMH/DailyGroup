@@ -1,0 +1,104 @@
+html {
+    font-family: 'Serif';}
+body {
+        background: 
+            linear-gradient(
+                to bottom, 
+                rgb(4, 4, 62) 0%, 
+                rgb(4, 4, 62) 30%, 
+                rgb(248, 248, 248) 30%, 
+                rgb(248, 248, 248) 50%, 
+                rgb(4, 4, 62) 50%, 
+                rgb(4, 4, 62) 80%, 
+                rgb(248, 248, 248) 80%, 
+                rgb(248, 248, 248) 100%
+            );
+    }
+      
+
+    
+.container{
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
+text-align: center;
+
+}
+.container1{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;}
+
+.container p{
+    text-align: center;
+    color: white;
+}
+h1{
+    color:white;
+    font-size: 3em;
+}
+.container2{
+    margin-top:50px;
+    margin-left: 15%;
+    margin-right:15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.column {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.column img {
+    margin-bottom: 20px;
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 30px;
+}
+
+.column1 img{
+    margin-bottom: 20px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 30px;
+}
+.c3{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    
+    }
+.c3 p{
+    text-align: left;
+    color: white;
+}
+h2{
+    font-size: 2em;
+    color: white;
+
+    }
+.image-row {
+    margin-left:20%;
+    margin-right:20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 30px; 
+    }
+    
+.image-row img {
+        width: 100%; 
+        height: 300px; 
+    }
+    
